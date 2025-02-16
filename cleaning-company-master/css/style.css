@@ -10614,7 +10614,7 @@ h5,
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover:before {
   visibility: visible;
-  background-color: #5BA803;
+  background-color: #5ba803;
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -12705,5 +12705,25 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
+  }
+}
+
+.logo-description {
+  font-family: "Playfair Display", serif; /* Elegant Italian-style font */
+  font-size: 18px;
+  font-weight: bold;
+  color: #5ba803; /* Warm Italian-inspired color */
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  margin-left: 40px;
+}
+/* Mobile View: Force Text to Break */
+@media (max-width: 768px) {
+  .logo-description {
+    white-space: normal; /* Allows line break */
+    font-size: 14px;
+    margin-left: 0px;
   }
 }
