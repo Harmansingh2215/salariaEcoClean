@@ -12710,16 +12710,22 @@ textarea.form-control {
   }
 }
 
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .logo-description {
-  font-family: "Playfair Display", serif; /* Elegant Italian-style font */
+  font-family: "Playfair Display", serif; /* Elegant font */
   font-size: 18px;
   font-weight: bold;
-  color: #5ba803; /* Warm Italian-inspired color */
+  font-style: italic; /* Italic text */
+  color: #5ba803; /* Eco-friendly green */
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1.4;
-  margin-left: 40px;
+  margin-top: -50px; /* Space between logo and text */
 }
 /* Mobile View: Force Text to Break */
 @media (max-width: 768px) {
@@ -12727,6 +12733,9 @@ textarea.form-control {
     white-space: normal; /* Allows line break */
     font-size: 14px;
     margin-left: 0px;
+  }
+  .logo img {
+    width: 200px;
   }
 }
 .price-number {
