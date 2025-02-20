@@ -11725,7 +11725,7 @@ textarea.form-control {
 }
 .block-7 .heading-2 {
   font-size: 14px;
-  color: #000000;
+  color: #2b98f0;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -11735,14 +11735,16 @@ textarea.form-control {
   display: block;
 }
 .block-7 .price sup {
-  font-size: 24px;
-  top: -0.8em;
-  color: #2b98f0;
+  font-size: 98px;
+  top: 0.1em;
+  color: #f3e53d;
+  font-weight: bold;
 }
 .block-7 .price .number {
-  font-size: 50px;
-  font-weight: 300;
-  color: #2b98f0;
+  font-size: 64px;
+  font-weight: 700;
+  color: #f3e53d;
+  /* line-height: 130%; */
 }
 .block-7 .label2 {
   text-transform: uppercase;
@@ -11764,7 +11766,7 @@ textarea.form-control {
 .block-7 .btn-primary {
   display: inline-block;
 }
-.block-7:hover,
+/* .block-7:hover,
 .block-7:focus,
 .block-7.active {
   background: #f3e53d;
@@ -11781,7 +11783,7 @@ textarea.form-control {
 .block-7:focus li span.fa,
 .block-7.active li span.fa {
   color: #2b98f0;
-}
+} */
 
 .footer {
   background: #111111;
@@ -11952,8 +11954,8 @@ textarea.form-control {
 }
 
 .heading-section h2 {
-  font-size: 44px;
-  font-weight: 300;
+  font-size: 37px;
+  font-weight: bold;
 }
 @media (max-width: 767.98px) {
   .heading-section h2 {
@@ -12726,4 +12728,8 @@ textarea.form-control {
     font-size: 14px;
     margin-left: 0px;
   }
+}
+.price-number {
+  font-weight: bold;
+  color: #f3e53d;
 }
